@@ -1,0 +1,68 @@
+#foto5 {
+    width: 100px;
+    border-radius: 100px;
+    float: left;
+    margin-right: 100px;
+    object-fit: cover;
+}
+
+
+.department {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.centered-text {
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+nav ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul.menu li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+nav ul.menu li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+nav ul.menu li a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.homepage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#foto4 {
+    width: 900px;
+    height: 600px;
+    display: flex;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 2%;
+    text-align: center;
+    margin-bottom: 0;
+}

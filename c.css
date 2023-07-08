@@ -1,0 +1,102 @@
+.box {
+    width: 670px;
+    padding: 20px;
+    margin-top: 10px;
+    border: 0.5px solid #ffffff;
+
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 10px;
+
+}
+
+.content {
+    font-size: 16px;
+    font-variant: normal;
+    border: 3px solid #ccc;
+
+}
+
+.foto {
+    max-width: 100%;
+    max-height: 100%;
+    transition: transform 0.3s ease;
+    margin: 0;
+    padding: 0;
+    border: 50px;
+}
+
+.foto:hover {
+    transform: scale(1.6);
+    object-position: center;
+}
+
+#foto3 {
+    width: 400px;
+    position: absolute;
+    top: 150px;
+    right: 200px;
+}
+
+#foto6 {
+    width: 100px;
+    border-radius: 100px;
+    float: left;
+    margin-right: 100px;
+    object-fit: cover;
+
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+    padding: 0;
+}
+
+#foto4 {
+    width: 400px;
+    position: absolute;
+    top: 500px;
+    right: 200px;
+}
+
+#foto5 {
+    width: 400px;
+    position: absolute;
+    right: 200px;
+    top: 1150px;
+}
+
+#foto7 {
+    width: 400px;
+    position: absolute;
+    right: 200px;
+    top: 1800px;
+    margin-bottom: 10px;
+}
+
+nav ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul.menu li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+nav ul.menu li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+nav ul.menu li a:hover {
+    background-color: #333;
+    color: #fff;
+}
